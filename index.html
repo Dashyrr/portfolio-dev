@@ -10,17 +10,152 @@
     <script src="tailwind.config.js"></script>
 </head>
 
-<body class="bg-brand-50">
-    <nav>
-        <div class="bg-brand-100 border border-brand-500 p-4 text-brand-800 flex justify-end gap-4">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+<body class="bg-brand-50 min-h-screen text-brand-800">
+    <nav class="sticky top-0 z-50 bg-brand-50/90 backdrop-blur-sm border-b border-brand-500">
+        <div>
+            <div class="w-3/5 mx-auto flex justify-between items-center p-6">
+                <span class="font-serif text-big">
+                    Mylan.Dev
+                </span>
+                <div class="flex gap-8">
+                    <a href="https://github.com/Dashyrr" ><img src="/portfolio-dev/svg/github.svg" alt="github"
+                            width="30" height="30"></a>
+                </div>
+            </div>
         </div>
     </nav>
-    <div class=" w3/5 mx-auto text-brand-800 text-center text-2xl ">
-        <h1 class="">Hello , im ... a Web Developer freelance</h1>
-    </div>
-</body>
 
-</html>
+    <section class="w-3/5 mx-auto p-6 mt-10 flex justify-start border-b border-brand-500">
+        <div class="">
+                <span class="uppercase tracking-wide text-accent text-small  ">
+                    <p>disponible pour de nouveaux projets</p>
+                </span>
+            <h1 class="text-7xl font-serif leading-[1.2]">
+                Lycéen en formation <br>
+                <span class="text-accent italic">
+                    D'études d'informatique
+                </span> <br>
+                Pour devenir développeur <br> Web
+            </h1>
+            <p class="text-sm font-mono text-brand-500  max-w-md leading-[1.8]">
+               /* Actuellement lycéen et passionné par le développement web, je construis progressivement mes compétences à travers des projets concrets, l’apprentissage continu et la curiosité technologique. Mon objectif : devenir un développeur capable de créer des solutions utiles, modernes et performantes. */
+            </p>
+            <div class="flex flex-row gap-8  ">
+                <button class="uppercase tracking-wide bg-accent text-brand-50 text-small font-mono rounded-sm px-4 py-2 hover:bg-aHov transition-colors ">
+                    Voir mes projets
+                </button>
+                <button class="uppercase tracking-wide font-mono text-brand-800/50 text-small hover:border hover:border-dashed hover:border-brand-800/50 hover:text-brand-800/50 transition-colors px-4 py-2 ">
+                    Me contacter
+                </button>
+            </div>
+        </div>
+
+        <div>
+                
+        </div>
+    </section>
+
+    <section ">
+        <div class="w-3/5 mx-auto mt-20">
+            <label for="skills" 
+            class="text-brand-500 text-lg font-mono">Mes compéteces techniques</label>
+            <div class="grid grid-cols-3 mt-6 gap-4">
+                <div class="bg-brand-100 p-6 rounded-sm">
+                    <span class="text-2xl font-serif">Front End</span>
+                    <ul class="text-brand-500 mt-4 flex flex-wrap gap-2">
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            HTML / CSS</span>
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            JavaScript
+                        </span>
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            React
+                        </span>
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            Tailwind
+                        </span>
+                    </ul>
+                </div>
+                <div class="bg-brand-100 p-6 rounded-sm">
+                    <span class="text-2xl font-serif">Back End</span>
+                    <ul class="text-brand-500 mt-4 flex flex-wrap gap-2">
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            PHP
+                        </span>
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            SQL
+                        </span>
+                    </ul>
+                </div>
+                <div class="bg-brand-100 p-6 rounded-sm">
+                    <span class="text-2xl font-serif">Audiovisuel</span>
+                    <ul class="text-brand-500 mt-4 flex flex-wrap gap-2">
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            Premiere pro
+                        </span>
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            After effects
+                        </span>
+                        <span class="text-[0.7rem] tracking-[0.08em] bg-brand-100 border border-brand-500 text-brand-500 px-3 py-1 rounded-sm hover:border-accent hover:text-accent transition-colors cursor-default">
+                            Blender
+                        </span>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="w-3/5 mx-auto flex flex-col mt-20" style="gap:1px;background:rgb(72,72,72)">
+
+        <a href="https://github.com/Dashyrr/portfolio-dev" class="project-card bg-brand-50 grid grid-cols-1 sm:grid-cols-[3fr_1fr] items-center px-6 py-7 gap-4 hover:bg-brand-100 transition-colors no-underline">
+            <div>
+                <p class="text-[0.65rem] text-brand-500 mb-2">01</p>
+                <p class="font-serif text-2xl tracking-tight">Portfolio Dev</p>
+                <p class="text-[0.75rem] text-brand-500 mt-1 leading-relaxed">Ce portfolio — Crée avec HTML, Tailwind CSS</p>
+            </div>
+            <div class="flex flex-col items-start sm:items-end gap-3">
+                <div class="flex flex-wrap gap-1 justify-start sm:justify-end">
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">HTML</span>
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">Tailwind</span>
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">CSS</span>
+                </div>
+                <span class="arrow text-accent text-xl">↗</span>
+            </div>
+        </a>
+
+        <a href="https://github.com/Dashyrr/poutre-connecte" class="project-card bg-brand-50 grid grid-cols-1 sm:grid-cols-[3fr_1fr] items-center px-6 py-7 gap-4 hover:bg-brand-100 transition-colors no-underline">
+            <div>
+                <p class="text-[0.65rem] text-brand-500 mb-2">02</p>
+                <p class="font-serif text-2xl tracking-tight">Poutre Connecté</p>
+                <p class="text-[0.75rem] text-brand-500 mt-1 leading-relaxed">Projet de poutre connecté pour s'entrainer a l'escalade</p>
+            </div>
+            <div class="flex flex-col items-start sm:items-end gap-3">
+                <div class="flex flex-wrap gap-1 justify-start sm:justify-end">
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">PHP</span>
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">Tailwind</span>
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">Javascript</span>
+                </div>
+                <span class="arrow text-accent text-xl">↗</span>
+            </div>
+        </a>
+
+        <a href="https://github.com/Dashyrr/thera-pyscho" class="project-card bg-brand-50 grid grid-cols-1 sm:grid-cols-[3fr_1fr] items-center px-6 py-7 gap-4 hover:bg-brand-100 transition-colors no-underline">
+            <div>
+                <p class="text-[0.65rem] text-brand-500 mb-2">03</p>
+                <p class="font-serif text-2xl tracking-tight">Thera Psycho</p>
+                <p class="text-[0.75rem] text-brand-500 mt-1 leading-relaxed">landing page fictif pour une thérapeute</p>
+            </div>
+            <div class="flex flex-col items-start sm:items-end gap-3">
+                <div class="flex flex-wrap gap-1 justify-start sm:justify-end">
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">React</span>
+                    <span class="text-[0.62rem] bg-brand-100 border border-brand-500 text-brand-500 px-2 py-0.5 rounded-sm">Tailwind</span>
+                </div>
+                <span class="arrow text-accent text-xl">↗</span>
+            </div>
+        </a>
+
+    </div>
+    </section>
+</body>
+</html> 
